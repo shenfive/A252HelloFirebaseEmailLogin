@@ -14,6 +14,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func goNewUser(_ sender: Any) {
+        performSegue(withIdentifier: "goNewUser", sender: self)
+    }
+    
 }
 
